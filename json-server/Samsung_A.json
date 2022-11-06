@@ -1,0 +1,132 @@
+{
+  "ad": [
+    {
+      "adId": "AD_001",
+      "category": "delivery",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 110,
+      "link": "i5zKzxgh98Y"
+    },
+    {
+      "adId": "AD_002",
+      "category": "community",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 50,
+      "link": "YZPv7OH-F1A"
+    },
+    {
+      "adId": "AD_003",
+      "category": "grocery",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 70,
+      "link": "dWjyAW9mlo4"
+    },
+    {
+      "adId": "AD_004",
+      "category": "fashion",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 70,
+      "link": "865uT4VFSOE"
+    },
+    {
+      "adId": "AD_005",
+      "category": "kids",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 70,
+      "link": "T0t-K2wS8qc"
+    },
+    {
+      "adId": "AD_006",
+      "category": "commodity",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 80,
+      "link": "OlQA_jsA7QQ"
+    },
+    {
+      "adId": "AD_007",
+      "category": "community",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 90,
+      "link": "Q4uvoJHoruI"
+    },
+    {
+      "adId": "AD_008",
+      "category": "fashion",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 100,
+      "link": "jyc0kYSYLM4"
+    },
+    {
+      "adId": "AD_009",
+      "category": "edu",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 100,
+      "link": "qyh6sVV5nk0"
+    },
+    {
+      "adId": "AD_010",
+      "category": "service",
+      "send_date": "2022-10-28",
+      "startsAt": "12:00",
+      "endsAt": "18:00",
+      "limit": 50,
+      "link": "yqzEiuXxCPI"
+    }
+  ],
+  "answer": [
+    {
+      "id": 1,
+      "eleId": "ELE_3041",
+      "adId": "AD_010",
+      "scanedAt": "",
+      "username": "홍길동",
+      "email": "head@whalbindang.kr",
+      "agreement": "Y"
+    },
+    {
+      "eleId": "ELE_3046",
+      "adId": "AD_002",
+      "scanedAt": "2022. 11. 6. 오후 4:18:02",
+      "userName": "asd",
+      "email": "sdkjlf@dslkdj.com",
+      "agreement": "Y",
+      "id": 2
+    },
+    {
+      "eleId": "ELE_3046",
+      "adId": "AD_009",
+      "scanedAt": "2022. 11. 6. 오후 5:45:51",
+      "userName": "d",
+      "email": "",
+      "agreement": "N",
+      "id": 3
+    },
+    {
+      "eleId": "ELE_3046",
+      "adId": "AD_006",
+      "scanedAt": "2022. 11. 6. 오후 6:57:22",
+      "userName": "DK",
+      "email": "DK@DK.COM",
+      "agreement": "Y",
+      "id": 4
+    }
+  ]
+}

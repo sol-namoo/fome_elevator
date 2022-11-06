@@ -1,0 +1,49 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "amd": true, //require
+    "node": true //module
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    // "plugin:import/recommended",
+    // "plugin:jsx-a11y/recommended",
+    // "plugin:@typescript-eslint/eslint-recommended",
+    "@typescript-eslint/parser",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommendxed",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/jsx-uses-react": 0,
+    "react/jsx-uses-vars": "error",
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "ignorePatterns": ["*.config.js"]
+}
