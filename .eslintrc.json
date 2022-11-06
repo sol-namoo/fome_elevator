@@ -13,17 +13,8 @@
       }
     }
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    // "plugin:import/recommended",
-    // "plugin:jsx-a11y/recommended",
-    // "plugin:@typescript-eslint/eslint-recommended",
-    "@typescript-eslint/parser",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/recommendxed",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["prettier"],
+  "plugins": ["@typescript-eslint", "prettier"],
   "parserOptions": {
     "project": "tsconfig.json",
     "ecmaFeatures": {
@@ -45,5 +36,5 @@
       }
     ]
   },
-  "ignorePatterns": ["*.config.js"]
+  "ignorePatterns": ["*.config.js", "node_modules/"]
 }
